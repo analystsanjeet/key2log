@@ -30,6 +30,48 @@ key2log is an advanced keylogging tool written in Python that records keyboard i
 pip3 install pynput
 
 ```
+## This error occurs in newer versions of Kali Linux because Python's pip is configured to use the system's package manager. Here's how to solve the "externally-managed-environment" error step by step:
+- Method 1: Using a Virtual Environment (Recommended)
+
+1. First, install python3-venv if not already installed:
+
+```bash
+sudo apt-get update &&
+sudo apt-get install python3-venv
+```
+
+2. Create a virtual environment:
+
+```bash
+python3 -m venv keylogger_env
+
+```
+
+3. Activate the virtual environment:
+
+```bash
+source keylogger_env/bin/activate
+
+```
+
+4. Now install pynput in the virtual environment:
+```bash 
+pip install pynput
+```
+
+5. When you're done, deactivate the virtual environment:
+
+```bash
+deactivate
+
+```
+
+## The first method (using a virtual environment) is the safest and most recommended approach. It keeps your system Python installation clean and prevents conflicts between packages.
+
+After solving the installation issue, you can proceed with running your keylogger code as described in the previous response.
+
+Remember to always use this tool responsibly and only on systems you own or have explicit permission to test.
+
 
 ## Clone or download the script
 ```bash
