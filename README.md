@@ -29,19 +29,22 @@ Keybom is an advanced keylogging tool written in Python that records keyboard in
 ```bash
 pip3 install pynput
 
+```
 
-Clone or download the script
-Make the script executable:
-
+## Clone or download the script
+## Make the script executable:
+```bash
 chmod +x keybom.py
 
+```
 
-Usage
-Run the script using Python:
-
+## Usage
+- Run the script using Python:
+```bash
 python3 keybom.py
-
-To stop the keylogger, press Ctrl + C
+```
+- To stop the keylogger, press
+- Ctrl + C
 Statistics Tracked
 
 Total number of keystrokes
