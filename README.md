@@ -75,7 +75,7 @@ Remember to always use this tool responsibly and only on systems you own or have
 
 ## Clone or download the script
 ```bash
-git clone https://github.com/sanjeetkalyan/key2log.git
+git clone https://github.com/analystsanjeet/key2log.git
 ```
 ## Make the script executable:
 ```bash
