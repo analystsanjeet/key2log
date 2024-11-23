@@ -1,10 +1,10 @@
-# Keybom - Advanced Keylogger Tool
+# key2log - Advanced Keylogger Tool
 
 ## Author
 Created by: Sanjeet Kalyan
 
 ## Description
-Keybom is an advanced keylogging tool written in Python that records keyboard inputs and provides detailed statistics about keystroke patterns. The tool features comprehensive logging, real-time statistics tracking, and error handling capabilities.
+key2log is an advanced keylogging tool written in Python that records keyboard inputs and provides detailed statistics about keystroke patterns. The tool features comprehensive logging, real-time statistics tracking, and error handling capabilities.
 
 ## Features
 - Real-time keystroke logging with timestamps
@@ -33,18 +33,18 @@ pip3 install pynput
 
 ## Clone or download the script
 ```bash
-git clone https://github.com/sanjeetkalyan/keybom.git
+git clone https://github.com/sanjeetkalyan/key2log.git
 ```
 ## Make the script executable:
 ```bash
-chmod +x keybom.py
+chmod +x key2log.py
 
 ```
 
 ## Usage
 - Run the script using Python:
 ```bash
-python3 keybom.py
+python3 key2log.py
 ```
 - To stop the keylogger, press Ctrl + C
 - Statistics Tracked
@@ -66,7 +66,7 @@ Clean program termination handling
 ## Output Format
 - Keyboard Log Format
 ```bash
-=== Keybom Activity Log ===
+=== key2log Activity Log ===
 Created by: Sanjeet Kalyan
 ========================================
 YYYY-MM-DD HH:MM:SS.mmm: key_pressed
@@ -75,7 +75,7 @@ YYYY-MM-DD HH:MM:SS.mmm: key_pressed
 ## Statistics Format (JSON)
 ```bash
 {
-    "tool_name": "Keybom",
+    "tool_name": "key2log",
     "author": "Sanjeet Kalyan",
     "total_keystrokes": count,
     "runtime": "duration",
