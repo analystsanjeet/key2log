@@ -66,7 +66,7 @@ deactivate
 
 ```
 
-## The first method (using a virtual environment) is the safest and most recommended approach. It keeps your system Python installation clean and prevents conflicts between packages.
+- The first method (using a virtual environment) is the safest and most recommended approach. It keeps your system Python installation clean and prevents conflicts between packages.
 
 After solving the installation issue, you can proceed with running your keylogger code as described in the previous response.
 
