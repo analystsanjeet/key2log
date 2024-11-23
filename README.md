@@ -31,7 +31,7 @@ pip3 install pynput
 
 ```
 ## This error occurs in newer versions of Kali Linux because Python's pip is configured to use the system's package manager. Here's how to solve the "externally-managed-environment" error step by step:
-- Method 1: Using a Virtual Environment (Recommended)
+- Using a Virtual Environment (Recommended)
 
 1. First, install python3-venv if not already installed:
 
