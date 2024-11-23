@@ -45,30 +45,33 @@ python3 keybom.py
 ```
 - To stop the keylogger, press
 - Ctrl + C
-Statistics Tracked
+- Statistics Tracked
 
-Total number of keystrokes
-Runtime duration
-Special keys frequency
-Character frequency distribution
+- Total number of keystrokes
+- Runtime duration
+- Special keys frequency
+- Character frequency distribution
 
-Features in Detail
+## Features in Detail
 
-Real-time logging with millisecond precision
+- Real-time logging with millisecond precision
 Automatic file creation and initialization
 Error handling and debug logging
 Statistics updated every 60 seconds
 UTF-8 encoding support
 Clean program termination handling
 
-Output Format
-Keyboard Log Format
+## Output Format
+- Keyboard Log Format
+```bash
 === Keybom Activity Log ===
 Created by: Sanjeet Kalyan
 ========================================
 YYYY-MM-DD HH:MM:SS.mmm: key_pressed
+```
 
-Statistics Format (JSON)
+## Statistics Format (JSON)
+```bash
 {
     "tool_name": "Keybom",
     "author": "Sanjeet Kalyan",
@@ -77,31 +80,41 @@ Statistics Format (JSON)
     "special_keys_frequency": {},
     "character_frequency": {}
 }
+```
 
-Legal Disclaimer
+## Legal Disclaimer
 This tool is for educational and authorized testing purposes only. Use only on systems you own or have explicit permission to test. Unauthorized keylogging may be illegal in your jurisdiction.
 Error Handling
 The tool includes comprehensive error handling for:
 
-File operations
+## File operations
 Keyboard event processing
 Statistics saving
 Program initialization and termination
 
-Contributing
+## Contributing
 Feel free to submit issues and enhancement requests.
 
 
 
-License
+## MIT License
 
-This README provides a comprehensive overview of your tool, including installation instructions, usage guidelines, features, and important disclaimers. You may want to:
+- Copyright (c) 2024 Sanjeet Kalyan
 
-1. Add a specific license
-2. Add more detailed installation instructions if needed
-3. Include screenshots if desired
-4. Add contact information
-5. Include contribution guidelines
-6. Add any specific system requirements or compatibility notes
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Remember to update the README as you make changes to the tool's functionality.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
