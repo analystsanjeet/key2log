@@ -8,7 +8,7 @@ from threading import Timer
 
 # Credit information
 __author__ = "Sanjeet Kalyan"
-__tool_name__ = "Keybom"
+__tool_name__ = "Key2log"
 
 def display_banner():
     banner = f"""
