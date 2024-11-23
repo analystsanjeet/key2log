@@ -32,6 +32,9 @@ pip3 install pynput
 ```
 
 ## Clone or download the script
+```bash
+git clone https://github.com/sanjeetkalyan/keybom.git
+```
 ## Make the script executable:
 ```bash
 chmod +x keybom.py
@@ -43,8 +46,7 @@ chmod +x keybom.py
 ```bash
 python3 keybom.py
 ```
-- To stop the keylogger, press
-- Ctrl + C
+- To stop the keylogger, press Ctrl + C
 - Statistics Tracked
 
 - Total number of keystrokes
@@ -99,7 +101,7 @@ Feel free to submit issues and enhancement requests.
 
 ## MIT License
 
-- Copyright (c) 2024 Sanjeet Kalyan
+Copyright (c) 2024 Sanjeet Kalyan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
